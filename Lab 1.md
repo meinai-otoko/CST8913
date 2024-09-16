@@ -1,23 +1,23 @@
 
-# Lab Report: Migration Plan for Del Monte Foods Inc.
+# Lab report: Migration Plan for Del Monte Foods Inc.
 
-## Company’s Motivators for Migration to the Cloud
+## Company's Motivators for Migration to the Cloud
 
-Del Monte Foods Inc. migrated to Microsoft Azure to solve several key issues with their previous cloud infrastructure, including high costs, complexity, and performance. The main motivators were:
-- **Cost Reduction:** Lowering expensive and complicated maintenance.
-- **Performance Improvement:** Overcoming performance issues and scalability limitations.
-- **Enhanced Security:** Addressing rising cyber threats and compliance needs.
-- **Minimal Disruption:** Avoiding downtime in their time-sensitive food processing operations.
+Del Monte Foods Inc. migarted to Microsoft Azure to solve several key issues with their previous cloud infrastructure, including high costs, complexity, and performance. The main motivators were:
+- **Cost Reduction:** Lowering expensive and complicated maintainence.
+- **Performance Improvement:** Solving performance issues and scalability limitations.
+- **Enhanced Security:** Taking care of growing cyberthreats and regulatory requirements.
+- **Minimal Disruption:** Preventing delays in their urgent food manufacturing processes.
 
 ## Questions to Understand the Company’s Setup
 
 To plan the migration effectively, we need to answer the following:
-1. What systems and software are currently used ?
-2. What are the exact performance and scalability issues that are present?
-3. What security measures and compliance requirements must be met?
-4. How is data currently backed up and what are the recovery plans?
+1. Which programs and systems are in use right now ?
+2. What specific problems with scalability and performance are there?
+3. What safety precautions and legal standards need to be followed?
+4. What recovery strategies are in place and how is data now backed up?
 5. Are there any third-party applications or systems that need integration?
-6. What are the peak operational times to minimize migration impact?
+6. When are operations busiest to minimize the impact of migration?
 
 ## RACI Matrix for Migration Stakeholders
 
