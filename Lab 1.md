@@ -3,7 +3,7 @@
 
 ## Company’s Motivators for Migration to the Cloud
 
-Del Monte Foods Inc. migrated to Microsoft Azure to address several key issues with their previous cloud infrastructure, including high costs, complexity, and performance bottlenecks. The main motivators were:
+Del Monte Foods Inc. migrated to Microsoft Azure to solve several key issues with their previous cloud infrastructure, including high costs, complexity, and performance. The main motivators were:
 - **Cost Reduction:** Lowering expensive and complicated maintenance.
 - **Performance Improvement:** Overcoming performance issues and scalability limitations.
 - **Enhanced Security:** Addressing rising cyber threats and compliance needs.
@@ -12,10 +12,10 @@ Del Monte Foods Inc. migrated to Microsoft Azure to address several key issues w
 ## Questions to Understand the Company’s Setup
 
 To plan the migration effectively, we need to answer the following:
-1. What systems and software are currently used (e.g., ERP, databases)?
-2. What specific performance and scalability issues are present?
+1. What systems and software are currently used ?
+2. What are the exact performance and scalability issues that are present?
 3. What security measures and compliance requirements must be met?
-4. How is data currently backed up and what are the recovery objectives?
+4. How is data currently backed up and what are the recovery plans?
 5. Are there any third-party applications or systems that need integration?
 6. What are the peak operational times to minimize migration impact?
 
