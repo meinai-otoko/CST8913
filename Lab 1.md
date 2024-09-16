@@ -32,7 +32,7 @@ To plan the migration effectively, we need to answer the following:
 
 ## Most Likely Migration Approach
 
-The **“Lift-and-Shift”** approach is ideal for Del Monte. This strategy involves moving existing systems to Azure with minimal changes to quickly take benefits of the new infrastructure. After the migration, the company can then focus on optimizing and refining the setup for enhanced performance and cost savings.
+The **“Lift-and-Shift”** approach is ideal for Del Monte. This strategy involves moving existing system to Azure with minimal changes to  take benefits of the new infrastructure. Following the move, the organization can concentrate on fine-tuning and optimizing the configuration for improved efficiency and reduced expenses.
 
 ## High-Level Schedule for the Migration Process
 
