@@ -32,7 +32,7 @@ To plan the migration effectively, we need to answer the following:
 
 ## Most Likely Migration Approach
 
-The **“Lift-and-Shift”** approach is ideal for Del Monte. This strategy involves moving existing systems to Azure with minimal changes to quickly realize the benefits of the new infrastructure. After the migration, the company can then focus on optimizing and refining the setup for enhanced performance and cost savings.
+The **“Lift-and-Shift”** approach is ideal for Del Monte. This strategy involves moving existing systems to Azure with minimal changes to quickly take benefits of the new infrastructure. After the migration, the company can then focus on optimizing and refining the setup for enhanced performance and cost savings.
 
 ## High-Level Schedule for the Migration Process
 
@@ -42,7 +42,7 @@ The **“Lift-and-Shift”** approach is ideal for Del Monte. This strategy invo
 | **Design & Architecture**  | 3 weeks             | Design Azure setup, configure network, security, and backup plans. |
 | **Migration Execution**    | 3 months            | Move systems to Azure, integrate with third-party apps, and ensure everything works. |
 | **Testing & Validation**    | 2 weeks             | Test the new setup, fix issues, and optimize performance. |
-| **Security Implementation** | 2 weeks             | Set up Microsoft Defender, apply security measures, and ensure compliance. |
+| **Security Implementation** | 2 weeks             | Apply security measures, and ensure compliance. |
 | **Post-Migration Support**  | Ongoing             | Monitor performance, provide support, and make improvements as needed. |
 
 ## Main Decision Criteria
