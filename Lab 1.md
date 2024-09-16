@@ -43,7 +43,7 @@ The **“Lift-and-Shift”** approach is ideal for Del Monte. This strategy invo
 | **Migration Execution**    | 3 months            | Move systems to Azure, integrate with third-party apps, and ensure everything works. |
 | **Testing & Validation**    | 2 weeks             | Test the new setup, fix issues, and optimize performance. |
 | **Security Implementation** | 2 weeks             | Use Microsoft defender stack, Apply security measures, and ensure compliance. |
-| **Post-Migration Support**  | Ongoing             | Monitor performance, provide support, and make improvements as needed. |
+| **Post-Migration Support**  | Ongoing             |Use additional microsoft solutions, Monitor performance, provide support. |
 
 ## Main Decision Criteria
 
