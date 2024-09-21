@@ -1,3 +1,4 @@
+ # Lab
 ## On-Premises Architecture Overview
 
 ```mermaid
