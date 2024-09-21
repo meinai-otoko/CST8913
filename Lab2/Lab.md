@@ -13,7 +13,7 @@ graph TD;
 ```
 
 ## Architecture Components
-On-premise hosting of the program makes use of a physical server running Linux that also handles a number of software components. This configuration includes a network architecture with routers and firewalls to provide secure connection, as well as a backup system for data integrity and disaster recovery. The React frontend sends HTTP queries to the Flask web server, which then communicates with the PostgreSQL database to store all application data. Redis caching can be used as an optional layer to improve performance by lowering database load and accelerating data retrieval for frequently requested information.
+On-premise hosting of the program makes use of a physical server running Linux that also handles a number of software components. This configuration includes a network architecture with routers and firewalls to provide secure connection, as well as a backup system for data integrity and disaster recovery. The React frontend sends HTTP queries to the Flask web server, which then communicates with the PostgreSQL database to store all application data. 
 
  ## IaaS Architecture Overview
 
