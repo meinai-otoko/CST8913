@@ -1,5 +1,5 @@
-
-# Cloud Migration Plan
+# Lab
+## Cloud Migration Plan
 
 ## Current On-Premises Architecture
 
