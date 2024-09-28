@@ -55,7 +55,7 @@ Our current on-premises solution consists of the following components:
 
 ### File Storage
 - **Target: PaaS**
-- **Reasoning**: Cloud storage services are more scalable, durability, and eaier to integrate with other cloud services. We can be more flexible if it needs another expansion. It can also cost way less for further expansion, if any is neeeded.
+- **Reasoning**: Cloud storage services are more scalable, durability, and eaier to integrate with other cloud services. We can be more flexible if it needs another expansion. It can also cost way less for further expansion, if any is neeeded. 
 - **Steps**:
   1. Inventory current file storage usage and access patterns
   2. Select appropriate cloud storage service (e.g., Azure Blob Storage, Amazon S3)
