@@ -18,15 +18,15 @@ graph TD
 
 Our current on-premises solution consists of the following components:
 
-Web Application: We have a single web application that runs on our physical servers. It combines everything in one place, which makes it hard to scale or update quickly.
+1. Web Application: We have a single web application that runs on our physical servers. It combines everything in one place, which makes it hard to scale or update quickly.
 
-Database: Our data is managed using SQL Server. It’s reliable for keeping our information organized, but it can slow down as we add more data.
+2. Database: Our data is managed using SQL Server. It’s reliable for keeping our information organized, but it can slow down as we add more data.
 
-File Storage: We store files directly on our server’s hard drives. This is straightforward, but it limits how much we can store and makes backups a bit tricky.
+3. File Storage: We store files directly on our server’s hard drives. This is straightforward, but it limits how much we can store and makes backups a bit tricky.
 
-Networking: Our network runs on routers and firewalls that we manage ourselves. This gives us control but requires skilled staff to keep everything secure and running smoothly.
+4. Networking: Our network runs on routers and firewalls that we manage ourselves. This gives us control but requires skilled staff to keep everything secure and running smoothly.
 
-Email Services: We use email to notify our clients about updates. It helps us communicate, but we have to manage spam and make sure we’re following the rules about email privacy.
+5. Email Services: We use email to notify our clients about updates. It helps us communicate, but we have to manage spam and make sure we’re following the rules about email privacy.
 
 ## Migration Strategy
 
@@ -42,7 +42,8 @@ Email Services: We use email to notify our clients about updates. It helps us co
 
 ### Database
 - **Target: PaaS (with initial IaaS consideration)**
-- **Reasoning**: PaaS offerings for databases provide managed services with automatic scaling and backups. However, an initial IaaS approach might be considered for minimal changes.
+- **Reasoning**: Starting with Infrastructure as a Service (IaaS), you may operate your own database servers in the cloud with complete control over setup and management by utilizing Azure Virtual Machines. You can move to a Platform as a Service (PaaS) solution, such as Azure SQL Database, as your needs change. Because Azure handles scaling, backups, and security, this shift streamlines operations. Making a gradual switch from IaaS to PaaS will allow you to concentrate more on application development and less on database management, which will improve setup efficiency and reduce costs.
+
 - **Steps**:
   1. Assess current database size and performance requirements
   2. Choose between immediate PaaS migration or initial IaaS approach
@@ -54,7 +55,7 @@ Email Services: We use email to notify our clients about updates. It helps us co
 
 ### File Storage
 - **Target: PaaS**
-- **Reasoning**: Cloud storage services offer scalability, durability, and integration with other cloud services.
+- **Reasoning**: Cloud storage services offer scalability, durability, and integration with other cloud services. We can be more flexible if it needs another expansion. 
 - **Steps**:
   1. Inventory current file storage usage and access patterns
   2. Select appropriate cloud storage service (e.g., Azure Blob Storage, Amazon S3)
@@ -65,7 +66,7 @@ Email Services: We use email to notify our clients about updates. It helps us co
 
 ### Networking
 - **Target: Cloud-native networking**
-- **Reasoning**: Leveraging cloud-native networking services provides better integration with other cloud resources and improved manageability.
+- **Reasoning**: IF we can Leverage the cloud-native networking services then we can have better integration with other cloud resources andit will aslo improve manageability.
 - **Steps**:
   1. Design cloud network architecture (VPCs, subnets, etc.)
   2. Set up VPN or Direct Connect for hybrid connectivity
