@@ -18,11 +18,15 @@ graph TD
 
 Our current on-premises solution consists of the following components:
 
-1. Web Application (Monolithic): Hosted on physical servers
-2. Backend Database: SQL server
-3. File Storage: Local file system
-4. Networking: Company-operated routers and firewalls
-5. Email Services: For client notifications
+Web Application: We have a single web application that runs on our physical servers. It combines everything in one place, which makes it hard to scale or update quickly.
+
+Database: Our data is managed using SQL Server. It’s reliable for keeping our information organized, but it can slow down as we add more data.
+
+File Storage: We store files directly on our server’s hard drives. This is straightforward, but it limits how much we can store and makes backups a bit tricky.
+
+Networking: Our network runs on routers and firewalls that we manage ourselves. This gives us control but requires skilled staff to keep everything secure and running smoothly.
+
+Email Services: We use email to notify our clients about updates. It helps us communicate, but we have to manage spam and make sure we’re following the rules about email privacy.
 
 ## Migration Strategy
 
