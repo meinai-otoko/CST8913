@@ -55,7 +55,7 @@ Our current on-premises solution consists of the following components:
 
 ### File Storage
 - **Target: PaaS**
-- **Reasoning**: Cloud storage services offer scalability, durability, and integration with other cloud services. We can be more flexible if it needs another expansion. 
+- **Reasoning**: Cloud storage services are more scalable, durability, and eaier to integrate with other cloud services. We can be more flexible if it needs another expansion. It can also cost way less for further expansion, if any is neeeded.
 - **Steps**:
   1. Inventory current file storage usage and access patterns
   2. Select appropriate cloud storage service (e.g., Azure Blob Storage, Amazon S3)
@@ -66,7 +66,7 @@ Our current on-premises solution consists of the following components:
 
 ### Networking
 - **Target: Cloud-native networking**
-- **Reasoning**: IF we can Leverage the cloud-native networking services then we can have better integration with other cloud resources andit will aslo improve manageability.
+- **Reasoning**: IF we can Leverage the cloud-native networking services then we can have better integration with other cloud resources and it will aslo improve manageability.
 - **Steps**:
   1. Design cloud network architecture (VPCs, subnets, etc.)
   2. Set up VPN or Direct Connect for hybrid connectivity
@@ -76,7 +76,7 @@ Our current on-premises solution consists of the following components:
 
 ### Email Services
 - **Target: SaaS**
-- **Reasoning**: Email is a standard service that can be easily migrated to a SaaS solution, reducing maintenance and improving reliability.
+- **Reasoning**: Email is a standard service that is easy to migrated to a SaaS solution, reducing maintenance and improving reliability. The uptime can aslo be significantly improved by this as traditional in house mail services are not relaiant.
 - **Steps**:
   1. Select appropriate email SaaS provider (e.g., Microsoft 365, Google Workspace)
   2. Plan user and data migration
