@@ -1,4 +1,4 @@
-# Lab
+# Lab 3
 ## Cloud Migration Plan
 
 ## Current On-Premises Architecture
