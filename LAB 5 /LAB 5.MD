@@ -30,6 +30,7 @@ graph TD
     I --> J[Amazon RDS Proxy]
 ```
 ### AWS Services Used
+-**Amazon CloudFront**: It is a global content delivery network (CDN) that stores and distributes static content from edge locations, such as images and CSS. It is positioned ahead of Amazon Route 53 to improve performance and lower latency by delivering content closer to users. CloudFront reduces stress on Amazon ECS Fargate by outsourcing the delivery of static content, resulting in quicker page loads and better scalability.
 - **Amazon Elastic Container Service (ECS)**: We can deploy and containerize the Frontend and Backend services  using Amazon ECS with Fargate, which will remove the need for managing EC2 instances.
 - **Amazon API Gateway**: Can be used to handle traffic for the backend API services which will provide a fully managed and scalable API management solution.
 - **Amazon Aurora**: It is a fully managed relational database service that is compatible with MySQL/PostgreSQL, offering higher performance and availability with automatic multi-AZ failover.
