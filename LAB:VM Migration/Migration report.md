@@ -12,7 +12,7 @@
 
 ## Resolution Strategies
 - **Freeing Up Resources**: I made more disk space available and adjusted the RAM allocation on my laptop to improve the performance of VMware Workstation and reduce interruptions.
-- **Reinstalling the Mobility Service**: I ensured that I reinstalled the mobility service on the correct VM which is source Vm, which resolved that specific issue.
+- **Reinstalling the Mobility Service**: I ensured that I reinstalled the mobility service on the correct VM which is source VM, which resolved that specific issue.
 - **Double-Checking Registration Steps**: I carefully reviewed the steps for appliance registration and checked the network settings to ensure they were accurate, which fixed the registration problems.
 - **Correcting the Configuration Server**: I followed Azure Migrate’s documentation closely to set up the configuration server correctly after resetting it.
 - **Updating the Mobility Agent**: I downloaded and installed the correct, updated version of the Azure Mobility agent, which solved the compatibility issues.
